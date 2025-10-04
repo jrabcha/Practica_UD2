@@ -4,7 +4,6 @@ import random
 dato = Faker()
 usuarios = {}
 
-
 for user_id in range(1, 16):
     nombre = dato.name()
     direccion = dato.address()
