@@ -19,5 +19,6 @@ import random
 dato = Faker()
 usuarios = {}
 
-for i in range(1, 16):
-    usuarios = (i, dato.name(), dato.address(), dato.email(), dato.telephone_number())
+
+for user_id in range(1, 16):
+    
