@@ -21,4 +21,8 @@ usuarios = {}
 
 
 for user_id in range(1, 16):
-    
+    nombre = dato.name()
+    direccion = dato.address()
+    email = dato.email()
+    telf = dato.phone_number()
+   
